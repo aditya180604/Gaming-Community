@@ -11,7 +11,7 @@ const messageRoutes = require("./routes/messageRoutes");
 const app = express();
 app.use(cors(
   {
-    origin: ["https://deploy-mern-1whq.vercel.app"],
+    origin: ["https://gaming-community-fck1.vercel.app"],
     method: ["POST", "GET"],
     credentials: true
   }
