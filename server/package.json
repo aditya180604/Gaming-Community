@@ -7,11 +7,10 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.5"
-  }
+  },
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "vercel-build": "npm run build"
-   }
-
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "vercel-build": "npm run build"
+  }
 }
