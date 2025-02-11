@@ -8,9 +8,9 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.9.5"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "vercel-build": "npm run build"
+ "scripts": {
+  "start": "node index.js",
+  "vercel-build": "npm run start"
   }
+
 }
