@@ -9,8 +9,14 @@ const MessageModel = require("./model/message");
 const messageRoutes = require("./routes/messageRoutes"); 
 
 const app = express();
+app.use(cors(
+  {
+    origin: ["https://deploy-mern-1whq.vercel.app"],
+    method: ["POST", "GET"],
+    credentials: true
+  }
+));
 app.use(express.json());
-app.use(cors());
 
 // ✅ Connect to MongoDB Atlas (Single Connection)
 mongoose
